@@ -7,6 +7,11 @@ Step 4: Run the command "php artisan migrate" to create the tables in the databa
 Steo 5: Run the command "php artisan passport:install" to install the client passport tokens. <br />
 Step 6: Run the command "php artisan db:seed" to create a demo user detail for login purpose.
 
+# DEMO Login
+
+Email: testuser@gmail.com
+Password: testuser@321?!
+
 # REST APIs
 
 Please find the list of APIs used in this project below. <br />
