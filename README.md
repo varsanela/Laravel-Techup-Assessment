@@ -4,7 +4,8 @@ Step 1: Setup this project into your local machine. <br />
 Step 2: Install the composer if you don't have it and run the "composer dump-autoload" to install the project dependencies. <br />
 Step 3: Copy the .env.example to .env file under the root path and create a database to configure the same in .env file. <br />
 Step 4: Run the command "php artisan migrate" to create the tables in the database. <br />
-Step 5: Run the command "php artisan db:seed" to create a demo user detail for login purpose. 
+Steo 5: Run the command "php artisan passport:install" to install the client passport tokens. <br />
+Step 6: Run the command "php artisan db:seed" to create a demo user detail for login purpose.
 
 # REST APIs
 
@@ -14,12 +15,13 @@ Please find the list of APIs used in this project below. <br />
 2. <project url with public>/api/regsiter [POST]
 3. <project url with public>/api/tasks/create [POST]
 4. <project url with public>/api/tasks/list [GET]
-  
+
 # Login API
-  
-  <b>URL:</b> /api/login <br />
-  <b>METHOD:</b> POST <br />
-  <b>REQUEST PARAMETERS:</b>  <br />
+
+<b>URL:</b> /api/login <br />
+<b>METHOD:</b> POST <br />
+<b>REQUEST PARAMETERS:</b> <br />
+
   <p>
   1. email <br />
   2. password
