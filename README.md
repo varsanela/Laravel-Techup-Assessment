@@ -36,7 +36,6 @@ Please find the list of APIs used in this project below. <br />
   
   <b>URL:</b> /api/register <br />
   <b>METHOD:</b> POST <br />
-  <b>HEADER:</b> Authorization: Bearer [token] <br />
   <b>REQUEST PARAMETERS:</b>  <br />
   <p>
   1. name <br />
